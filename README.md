@@ -1,13 +1,11 @@
-# Landing Page Project
+Description:
 
-## Table of Contents
+This project is made essentially to learn javascript, landing page means a page that you supposed to go when you are clicking an advertisement it should be clear clarifying the main content of the web site 
 
-* [Instructions](#instructions)
+Prerequisite:
 
-## Instructions
+Before you start this project you should know html and css
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+Installation:
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Download the project as a zip file or clone it to the destination you want
