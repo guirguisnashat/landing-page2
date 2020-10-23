@@ -2,6 +2,50 @@
 
 
 
+//some variables
+
+let section_1=document.getElementById("section1");
+let section_2=document.getElementById("section2");
+let section_3=document.getElementById("section3");
+let section_4=document.getElementById("section4");
+
+
+//making section active by scrolling
+
+window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(y>400){
+        section_1.className="your-active-class";
+        section_2.className="";
+        section_3.className="";
+        section_4.className="";
+    }
+
+    if(y>1000){
+        section_2.className="your-active-class";
+        section_1.className="";
+        section_3.className="";
+        section_4.className="";
+    }
+
+    if(y>1500){
+        section_3.className="your-active-class";
+        section_2.className="";
+        section_1.className="";
+        section_4.className="";
+    }
+
+    if(y>2000){
+        section_4.className="your-active-class";
+        section_2.className="";
+        section_3.className="";
+        section_1.className="";
+    }
+});
+
+
+
+
 // Set sections as active
 
 function tosection1(){
